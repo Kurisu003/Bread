@@ -8,7 +8,7 @@ function changeKeywoard(str){
 
 function updateBread(){
     $(".loading").show();
-    $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+    $.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
     {
         tags: keyword,
         tagmode: "any",
