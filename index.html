@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>B R E A D</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+
+    <div class="navigationContainer">
+        <h1>Select category</h1>
+        <div class="buttonWrapper">
+            <button class="buttons catButton" onclick="changeKeywoard('toast')">Toast</button>
+            <button class="buttons catButton" onclick="changeKeywoard('crossaint')">Crossaint</button>
+            <button class="buttons catButton" onclick="changeKeywoard('Bagel')">Bagel</button>
+            <button class="buttons catButton" onclick="changeKeywoard('Baguette')">Baguette</button>
+            <button class="buttons catButton" onclick="changeKeywoard('cat bread')">Cat</button>
+            <button class="buttons" onclick="updateBread()">Refresh</button>
+        </div>
+        <p class="loading">L O A D I N G</p>
+    </div>
+
+    <div class="breadContainer">
+        <div id="breadWrapper">
+            <img id="breadImage"/>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
